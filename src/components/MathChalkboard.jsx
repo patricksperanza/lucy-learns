@@ -53,9 +53,9 @@ const MathChalkboard = () => {
                 type="text"
               />
             )}
-            <h2 className="result">{result}</h2>
           </div>
         )}
+        <h2 className="result">{result}</h2>
       </div>
       <div className="btn-div">
         <button onClick={getNewProblem} className="button-30">

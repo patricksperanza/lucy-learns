@@ -4,12 +4,13 @@
   border: 8px solid rgb(173, 129, 74);
   border-radius: 8px;
   background: rgb(84, 120, 92);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fff;
   font-size: 2rem;
   letter-spacing: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .mathProblem {
@@ -22,7 +23,7 @@
   background: rgb(84, 120, 92);
   color: #fff;
   font-family: "Happy Monkey";
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   width: 3rem;
   height: 3.5rem;
@@ -30,6 +31,7 @@
 
 .result {
   margin: 10px;
+  text-align: center;
 }
 
 .btn-div {
