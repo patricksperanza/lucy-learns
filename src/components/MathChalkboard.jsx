@@ -50,7 +50,7 @@ const MathChalkboard = () => {
                 onChange={(e) => setAnswer(e.target.value)}
                 autoFocus
                 className="answer"
-                type="text"
+                type="number"
               />
             )}
           </div>
