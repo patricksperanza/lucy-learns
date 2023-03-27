@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
+body {
+  background: linear-gradient(rgb(252, 196, 205), rgb(206, 147, 157));
+  height: 100vh;
+  font-family: "Happy Monkey";
+}
