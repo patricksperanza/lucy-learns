@@ -19,4 +19,15 @@ export const wordList = [
   "HE",
   "SHE",
   "YES",
+  "WENT",
+  "WITH",
+  "RUN",
+  "LITTLE",
+  "DOWN",
+  "FIRST",
+  "AFTER",
+  "COME",
+  "THAT",
+  "VERY",
+  "JUST"
 ]
