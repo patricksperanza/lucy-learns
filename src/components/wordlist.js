@@ -29,5 +29,14 @@ export const wordList = [
   "COME",
   "THAT",
   "VERY",
-  "JUST"
+  "JUST", 
+  "I see a car",
+  "I have a dog",
+  "I ate a pie", 
+  "He wants a cookie",
+  "I can sing",
+  "I see you",
+  "It is my book",
+  "Please help me",
+  "She is my sister"
 ]
