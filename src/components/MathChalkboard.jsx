@@ -6,7 +6,7 @@ const MathChalkboard = () => {
     num1: 0,
     num2: 0,
     solution: 0,
-    operation: "+",
+    operation: "*",
   })
   const [answer, setAnswer] = useState("")
   const [result, setResult] = useState("")
@@ -22,7 +22,7 @@ const MathChalkboard = () => {
       ...problem,
       num1: num1,
       num2: num2,
-      solution: num1 + num2,
+      solution: num1 * num2,
     })
     setResult(null)
     setAnswer("")
@@ -43,7 +43,7 @@ const MathChalkboard = () => {
           <h2>Math</h2>
         ) : (
           <div className="mathProblem">
-            <h2>{`${problem.num1} + ${problem.num2} =  `}</h2>
+            <h2>{`${problem.num1} x ${problem.num2} =  `}</h2>
             {problem !== "Math" && (
               <input
                 value={answer}
